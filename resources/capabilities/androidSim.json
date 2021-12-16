@@ -1,0 +1,14 @@
+{
+  "appium": {
+    "capabilities": {
+      "deviceName": "phone",
+      "platformName": "android",
+      "platformVersion": "11.0",
+      "udid": "emulator-5554",
+      "appPackage": "ru.yandex.mail",
+      "appActivity": "ru.yandex.mail.ui.LoginActivity"
+    },
+    "url": "http://localhost:4723/wd/hub",
+    "implicitlyWait": 10
+  }
+}
